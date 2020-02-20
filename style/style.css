@@ -15,7 +15,7 @@ a{
     
 }
 a:hover{
-    opacity: 0.9;
+    opacity: 0.5;
 }
 img{
     max-width: 100%;
@@ -46,10 +46,13 @@ img{
 .barry{
     margin-top: 150px;
     width: 920px;
+    display: block;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
+
 
 /* Menu */
 .menu-items{
@@ -75,5 +78,17 @@ img{
 
 /* intro cta */
 .intro-cta{
+    margin-top: 100px;
+    width: 247px;
+    height: 53px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(/img/Button.png);
+}
+.intro-cta>a{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 50px;
 }
