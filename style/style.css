@@ -1,3 +1,79 @@
-*{
-    font-family: Outrun future;
+body{
+background-color: #222222;
+
+color: #ffffff;
+font-family: Outrun future;
+font-size: 14px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.35px;
+}
+/* Links */
+a{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+a:hover{
+    opacity: 0.9;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Grid */
+.container{
+    max-width: 2000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Page Header */
+.page-header{
+    background-image: url(/img/Photo.png);
+    padding: 134px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-header > .container{
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Barry */
+.barry{
+    margin-top: 150px;
+    width: 920px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Menu */
+.menu-items{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+.menu-items li{
+    margin: 0 24px 0 0;
+    display: inline-block;
+}
+.menu-items li a{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2em;
+    line-height: 30px;
+}
+.menu-items .active{
+    background-image: url(/img/Hover_menu.png);
+}
+
+/* intro cta */
+.intro-cta{
+    text-align: center;
 }
